@@ -79,17 +79,3 @@ sudo mv ./kind /usr/local/bin/kind
 
 * **O que faz:** Verifica se o processador é 64 bits, baixa a versão `v0.31.0` e concede permissão de execução (`+x`).
 * **Por que fizemos:** Por segurança, o Linux não permite executar arquivos baixados sem permissão explícita. Ao mover para `/usr/local/bin`, habilitamos o uso de comandos como `kind create cluster` em qualquer lugar.
-
----
-
-## 🤝 Contribua
-
-Fique à vontade para clonar este repositório, sugerir melhorias via **Pull Request** ou usar este material nos seus próprios estudos!
-
----
-
-> **Dica:** Se estiver usando o **NVIM** para editar seus manifestos de Kubernetes, não esqueça de instalar plugins de LSP para YAML para facilitar sua vida!
-
----
-
-Deseja que eu gere um arquivo de exemplo `kind-config.yaml` para você criar seu primeiro cluster com múltiplos nós (control-plane e workers)?
