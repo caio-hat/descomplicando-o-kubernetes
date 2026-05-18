@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceScribe AI</string>
+    <string name="record_start">Toque para gravar</string>
+    <string name="record_stop">Toque para parar</string>
+    <string name="transcribing">Transcrevendo…</string>
+    <string name="improving">Melhorando com IA…</string>
+    <string name="raw_transcription">Transcrição</string>
+    <string name="improved_text">Texto melhorado</string>
+    <string name="copy">Copiar</string>
+    <string name="share">Compartilhar</string>
+    <string name="settings">Configurações</string>
+    <string name="ai_provider">Provedor de IA</string>
+    <string name="gemma_local">Gemma (local)</string>
+    <string name="gemini_api">Gemini API (nuvem)</string>
+    <string name="gemini_api_key">Chave da API Gemini</string>
+    <string name="api_key_hint">Cole sua chave aqui</string>
+    <string name="whisper_model">Modelo Whisper</string>
+    <string name="model_tiny">Tiny (75MB) — mais rápido</string>
+    <string name="model_base">Base (142MB) — recomendado</string>
+    <string name="model_small">Small (466MB) — mais preciso</string>
+    <string name="download_model">Baixar modelo</string>
+    <string name="download_gemma">Baixar Gemma 2B (~1.5GB)</string>
+    <string name="downloading">Baixando…</string>
+    <string name="model_ready">Modelo pronto</string>
+    <string name="error_no_model">Modelo não encontrado. Baixe nas configurações.</string>
+    <string name="error_no_api_key">Configure a chave da API Gemini nas configurações.</string>
+    <string name="error_transcription">Erro na transcrição. Tente novamente.</string>
+    <string name="error_improvement">Erro na melhoria do texto.</string>
+    <string name="permission_required">Permissão de microfone necessária</string>
+    <string name="grant_permission">Conceder permissão</string>
+    <string name="copied">Texto copiado!</string>
+    <string name="wifi_recommended">Recomendado usar Wi-Fi para este download</string>
+</resources>
